@@ -8,9 +8,9 @@ const Navbar = ()=> {
                 <a href="/" className="logo">Rawdah Institute</a>
                 <ul>
                     <li className="active"><a href="#home">Home</a></li>
-                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Online Courses">Online Courses</a></li>
                     <li><a href="#About Us">About Us</a></li>
-                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
 
                 </ul>
             </div>
