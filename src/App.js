@@ -1,10 +1,12 @@
-
+import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to Rawdah Institute</h1>
+      {/* <h1>Welcome to Rawdah Institute</h1> */}
+        <Navbar/>
     </div>
   );
 }
