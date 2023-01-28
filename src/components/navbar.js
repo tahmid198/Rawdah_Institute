@@ -7,10 +7,10 @@ const Navbar = ()=> {
             <div className="navbar">
                 <a href="/" className="logo">Rawdah Institute</a>
                 <ul>
-                    <li className="active"><a href="#home">Home</a></li>
-                    <li><a href="#Online Courses">Online Courses</a></li>
-                    <li><a href="#About Us">About Us</a></li>
-                    <li><a href="#Contact">Contact</a></li>
+                    <li className="active"><a href="/">Home</a></li>
+                    <li><a href="OnlineClass">Online Class</a></li>
+                    <li><a href="About">About Us</a></li>
+                    <li><a href="Contact">Contact</a></li>
 
                 </ul>
             </div>
