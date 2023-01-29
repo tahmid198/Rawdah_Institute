@@ -1,5 +1,5 @@
 import React, { Children } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import './css/navbar.css'
 
 
@@ -29,11 +29,14 @@ const Navbar = ()=> {
 // check if path is equal to href and add active class
 function CustomLink({to, children, ...props}) {
      // use to get to active page path
-     const path = window.location.pathname
+    //  const path = window.location.pathname
      
+    const resolvedPath = useResolvedPath(to)
+    const isActive = useMatch({ path: resolvedPath.pathname, end: true})
+
     return (
         // if path is == href then active or noting
-        <li className= {path === to ? "active" : ""}>
+        <li className= {isActive ? "active" : ""}>
             <Link to={to}{...props}>{children}</Link>
         </li>
     )
