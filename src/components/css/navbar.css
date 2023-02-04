@@ -2,13 +2,16 @@
     box-sizing: border-box;
 }
 .navbar{
-    position:relative;
+    position:fixed;
+    top: 0;
     height:60px;
     width:100%;
     background: #4B8673;
     display:flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    z-index: 999999;
 }
 
 .navbar .logo{
