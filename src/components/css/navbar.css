@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .navbar{
     position:relative;
     height:60px;
