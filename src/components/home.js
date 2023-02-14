@@ -1,3 +1,8 @@
 export default function Home() {
-    return <h1>Home</h1>
-}
+    return (
+        <section className="sec-container">
+           <div className="home">
+            <h1> Home page</h1>
+           </div>
+            </section>
+)}
