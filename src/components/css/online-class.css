@@ -95,7 +95,7 @@
     /* position: absolute; */
     float: center;
     display: inline-grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     /* transform: translateY(-50%,-50%); */
     gap: 20px;
     /* top: 50%; */
