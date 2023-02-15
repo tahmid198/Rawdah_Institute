@@ -98,9 +98,6 @@ export default function OnlineClass(){
                         </div>
                 </div>
             </div>
-            <div className="footer">
-                <h1> © 2023 RAWDAH INSTITUTE</h1>
-            </div>
         </section>
         // </HelmetProvider>   
     )
