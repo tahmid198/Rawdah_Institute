@@ -1,7 +1,5 @@
 import React from 'react';
 import ClampLines from 'react-clamp-lines';
-
-// import {Helmet, HelmetProvider} from "react-helmet-async";
 import  './css/online-class.css';
 
 const sunnah101 =  "Overview \nThis course is devloped for students who wish to develop an in depth understanding of sunnah prayers. The course will cover the rulings, descriptions, times, and benefits of the various sunnah prayers as derived from the tradition of our beloved Prophet Muhammad SAW.";
