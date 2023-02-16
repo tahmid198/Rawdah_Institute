@@ -1,7 +1,5 @@
 import React from 'react';
 import ClampLines from 'react-clamp-lines';
-
-// import {Helmet, HelmetProvider} from "react-helmet-async";
 import  './css/online-class.css';
 
 const sunnah101 =  "Overview \nThis course is devloped for students who wish to develop an in depth understanding of sunnah prayers. The course will cover the rulings, descriptions, times, and benefits of the various sunnah prayers as derived from the tradition of our beloved Prophet Muhammad SAW.";
@@ -31,7 +29,6 @@ const arabic102Info = "Details \nCourse Code: Arabic 102 \nInstructor: Ust. Sher
 export default function OnlineClass(){
 
     return (
-        // <HelmetProvider>
         <section className="sec-container">
             <div className="title">
                 <div className="title-info">
@@ -99,6 +96,5 @@ export default function OnlineClass(){
                 </div>
             </div>
         </section>
-        // </HelmetProvider>   
     )
 }
