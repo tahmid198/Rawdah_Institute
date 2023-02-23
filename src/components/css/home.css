@@ -1,0 +1,65 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.home h1{
+position: relative;
+height: 60vh;
+width: 100%;
+font-size: 3rem; /* add this line to change the font size */
+color: white;
+
+}
+
+.home h2{
+ 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 30vh;
+  width: 100%;
+  color: white;
+
+}
+
+.home h3{
+ 
+  font-size: 2rem; /* add this line to change the font size */
+
+  color: white;
+}
+
+.home .home-info {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: auto;
+  color: white;
+
+}
+
+.home {
+  position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+     url('./rawdah-assets/Mosque-Interior\ \(1\).jpg');   
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  
+}
+
+/* .section-container{
+height: auto;
+text-align: center;
+padding-top: 100px;
+}
+.section-container h1{
+  text-align: center;
+ padding-top: 100px;
+
+
+} */
