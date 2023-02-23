@@ -12,13 +12,13 @@ import {
 export default function Footer() {
     return (
         <div className='social-container'>
-        <h2>&copy; Rawdah Institute</h2>
-        <a href="https://www.instagram.com/rawdahinstitute/?hl=en" className="instagram social">
-            <FontAwesomeIcon icon={faInstagram} size="2x" />
-        </a>
-        <a href="https://www.facebook.com/people/Rawdah-Institute/100057197180285/" className="facebook social">
-        <FontAwesomeIcon icon={faFacebook} size="2x" />
-      </a>
+            <h2>&copy; Rawdah Institute</h2>
+            <a href="https://www.instagram.com/rawdahinstitute/?hl=en" className="instagram social">
+                <FontAwesomeIcon icon={faInstagram} size="2x" />
+            </a>
+            <a href="https://www.facebook.com/people/Rawdah-Institute/100057197180285/" className="facebook social">
+                <FontAwesomeIcon icon={faFacebook} size="2x" />
+            </a>
         </div>    
     )
 }
