@@ -15,19 +15,39 @@ export default function Home() {
 <h2>“Whoever takes a path upon which to obtain knowledge, Allah makes the path to Paradise easy for him.”
 
 — Jami` at-Tirmidhi 2646</h2>
-<nav>
-    <ul>
-        <li><Link to="/OnlineClass"></Link></li>
-    </ul>
-</nav>
-<h3>
 
-<li><Link to="/OnlineClass">Click to see the latest classes we have to offer for Spring 2023</Link></li>
+    
+        {/* <Link to="/OnlineClass"></Link> */}
+    
 
-</h3>
+        
+<h3 style={{ textDecoration: 'underline'}}>
+Check Out Our Latest Courses for:
+        
+</h3>    
+
+
+
+
+<Link to="/OnlineClass">
+    
+    
+       
+
+       
+        <button style={{fontSize: '1em', padding:'5px', backgroundColor: '#F5F5F5', fontWeight: 'bold', cursor:'pointer', borderRadius: '5px', outline: 'none'}}>
+   Spring 2023
+        </button>
+         
+      
+        
+        </Link>
+       
+
         </div>
 
     </div>
+
 
 </section>
 
