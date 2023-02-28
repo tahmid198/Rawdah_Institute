@@ -6,6 +6,7 @@ import About from './components/about';
 import OnlineClass from './components/online-class';
 import Contact from './components/contact';
 import { Route,  Routes } from 'react-router-dom';
+import Footer from './components/footer';
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/About" element={<About />} />
         </Routes>
+        <Footer />
 
         {/* {component} */}
 

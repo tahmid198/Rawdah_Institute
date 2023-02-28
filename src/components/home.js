@@ -25,7 +25,7 @@ export default function Home() {
 
         
 <h3 style={{fontSize: "24px" }}>
-Sign Up For Our Latest Courses Here:
+Check Out Our Latest Courses for:
         
 </h3>    
 
