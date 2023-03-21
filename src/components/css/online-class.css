@@ -11,36 +11,32 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.title .title-info {
+} .title .title-info {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
     height: auto;
-}
-.title .title-info h1 {
+} .title .title-info h1 {
     position: relative;
-    font-size: 3.5rem;
+    font-size: 50px;
     color: #fff;
-    font-weight: 300;
-}
-.title .title-info p {
+    font-weight: 350;
+} .title .title-info p {
     position: relative;
-    font-size: 2.4rem;
+    font-size: 40px;
     color: #fff;
-    font-weight: normal;
+    font-weight: 250;
 }
 /* --------------------------------------------------------------------------------------- */
-.schedule{
+.schedule {
     position: relative;
     /* height: 40vh;
     width: 100%; */
     background-color: #000;
     padding: 150px;
     
-}
-.schedule .schedule-title h1{
+} .schedule .schedule-title h1 {
     position: center;
     padding-bottom: 50px;
     color: #fff;
@@ -51,7 +47,6 @@
     margin-right: -50%;
     transform: translate(-50%, -50%);
     float: center;
-
 }
 
 .schedule .grid-schedule-container {
@@ -76,19 +71,17 @@
     width: 100%; */
     padding: 10px;
     background-color:#F5DF99;
-}
-.class-container .class-list {
+} .class-container .class-list {
     background-color: #fff;
     /* height: 100%;
     width: 100%; */
     padding: 50px;
     float: center;
-}
-
-.class-container .class-list h1 {
+} .class-container .class-list h1 {
     padding-top: 30px;
     padding-bottom: 60px;
     font-weight: 300;
+    color: #000;
 }
 
 .class-container .class-list .grid-class-container {
@@ -100,10 +93,15 @@
     gap: 20px;
     /* top: 50%; */
     /* left: 3%; */
-}
-.grid-class-container .grid-item h4{
+} @media screen and (max-width: 980px){
+    .class-container .class-list .grid-class-container {
+        grid-template-columns: auto;
+    }
+}.grid-class-container .grid-item h4{
     text-align: left;   
 }
+
+
 /* -------------------------------------------------------------------------------------- */
 
 /* main.js script */
@@ -126,8 +124,7 @@
     color: #187cc8;
     cursor: pointer;
     padding: 0;
-  }
-  .clamp-lines {
+} .clamp-lines {
     /* border-bottom: 1px solid #acacac36; */
     border-radius: .25em;
     font-family: sans-serif;
@@ -135,15 +132,13 @@
     padding: 0em .75em .75em .75em;
     text-align: left;
     font-weight: 300;
-  }
-  .details{
+} .details {
     white-space: pre-wrap;
-  }
-  .details::first-line {
+} .details::first-line {
     font-weight: 550;
-  }
+}
   /* Preserve line breaks characters*/
-  .overview {
+.overview {
     border-radius: .25em;
     font-family: sans-serif;
     margin: 1em;
@@ -151,8 +146,7 @@
     text-align: left;
     font-weight: 300;
     white-space: pre-wrap;
-  }
-  .overview::first-line{
+} .overview::first-line{
     font-weight: 550;
-  }
+}
 /* -------------------------------------------------------------------------------------- */
