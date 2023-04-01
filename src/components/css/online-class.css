@@ -146,6 +146,8 @@
     text-align: left;
     font-weight: 300;
     white-space: pre-wrap;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
 } .overview::first-line{
     font-weight: 550;
 }
