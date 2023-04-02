@@ -15,10 +15,6 @@ const Navbar = () => {
   return (
     <nav className="navbar">
 
-        <div className="hamburger" onClick={toggleHamburger}>
-            <Hamburger isOpen={hamburgerOpen}/>
-        </div>
-        
         <Link to="/" className="logo">
             Rawdah Institute
         </Link>
@@ -26,18 +22,36 @@ const Navbar = () => {
         <ul>
             <CustomLink to="/">Home</CustomLink>
             <CustomLink to="/OnlineClass">Online Class</CustomLink>
-            <CustomLink to="/About">About Us</CustomLink>
             <CustomLink to="/Contact">Contact</CustomLink>
+            <CustomLink to="/About">About Us</CustomLink>
             {/* <li><a href="/">Home</a></li>
                 <li><a href="/OnlineClass">Online Class</a></li>
                 <li><a href="/About">About Us</a></li>
                 <li><a href="/Contact">Contact</a></li> */}
         </ul>
- 
+
+        <div className="hamburger" onClick={toggleHamburger}>
+            < Hamburger isOpen={hamburgerOpen} />
+        </div>
+
+
+        {/* if screen > 770px always show navbar and keep hamburger menu hidden
+        if screen < 770px display navbar when hamburger is open or hide it */}
         <style jsx>{`
-            .navbar ul{
-                display: ${hamburgerOpen ? 'inline' : 'none'}
+
+            @media screen and (max-width: 770px) {
+                .navbar ul{
+                    display: ${hamburgerOpen ? 'inline' : 'none'}
+                } 
             }
+            @media screen and (min-width: 770px) {
+                .navbar ul{
+                    display: inline;
+                } .hamburger {
+                    display: none;
+                } 
+            }
+            
         `}</style>
       
     </nav>
