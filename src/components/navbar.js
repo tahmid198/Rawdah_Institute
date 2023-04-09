@@ -2,15 +2,27 @@ import React, { Children, useState } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import "./css/navbar.css";
 import Hamburger from "./hamburger";
+import Sidebar from './sidebar'; 
 
-const Navbar = () => {
+
+const Navbar = ({toggleMenu}) => {
   // for react router change  all "href" to "to" and change "a" tag to "Link"
 
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
-
+ 
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen)
   }
+
+  const handleOpenMenu = () => {
+    toggleMenu();
+  }
+
+  const handleClick = () => {
+    toggleHamburger();
+    handleOpenMenu();
+    console.log('toggleMenu called'); // Add a console.log statement
+  };
 
   return (
     <nav className="navbar">
@@ -29,8 +41,9 @@ const Navbar = () => {
                 <li><a href="/About">About Us</a></li>
                 <li><a href="/Contact">Contact</a></li> */}
         </ul>
+      {/* <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} /> */}
 
-        <div className="hamburger" onClick={toggleHamburger}>
+        <div className="hamburger" onClick={handleClick}>
             < Hamburger isOpen={hamburgerOpen} />
         </div>
 
@@ -50,10 +63,8 @@ const Navbar = () => {
                 } .hamburger {
                     display: none;
                 } 
-            }
-            
+            }  
         `}</style>
-      
     </nav>
   );
 };
@@ -75,5 +86,4 @@ function CustomLink({ to, children, ...props }) {
     </li>
   );
 }
-
 export default Navbar;
