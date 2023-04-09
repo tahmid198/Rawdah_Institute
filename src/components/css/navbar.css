@@ -27,6 +27,8 @@
 .navbar ul{
     position: relative;
     height: 100%;
+    display: flex;
+    float: right;
     /* width: 35%; */
 }
 .navbar ul li{
