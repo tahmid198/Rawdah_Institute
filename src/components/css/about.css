@@ -1,14 +1,11 @@
 .about h1{
-  position: relative;
+  position: top;
   
   font-size: 3.5rem;
       color: #fff;
       font-weight: 300;
    
-  /*  
-  width: 100%;
-  font-size: 3rem; 
-  color: white; */
+
   
   height: 60vh;
   }
@@ -17,9 +14,29 @@
     position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  height: 30vh;
+  height: 500px;
   width: 100%;
   color: white;
+  }
+
+  .about h5{
+    /* position: absolute; */
+ 
+  transform: translateY(-50%);
+  height: 1000%;
+  width: 100%;
+  color: white;
+  }
+
+  .about h6 {
+    position: relative;
+    font-size: 3.5rem;
+        color: #fff;
+        font-weight: 300;
+        height: 90px;
+
+    
+    
   }
 
   .about .about-info{
@@ -29,6 +46,7 @@
     width: 100%;
     height: auto;
     color: white;
+    
 
   }
 
@@ -43,3 +61,9 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+ 
+
+ 
+  
+
