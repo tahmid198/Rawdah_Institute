@@ -9,13 +9,18 @@ const menuProps = {
   width: "60%"
 };
 
+ // This can be used to close the menu, e.g. when a user clicks a menu item
+ const closeMenu =  () => {
+  this.setState({menuOpen: false})
+};
+
 return (
   <Menu className='sideBarMenu' disableOverlayClick right {...menuProps} isOpen={isOpen}>
         <ul>
-            <CustomLink to="/">Home</CustomLink>
-            <CustomLink to="/OnlineClass">Online Class</CustomLink>
-            <CustomLink to="/Contact">Contact</CustomLink>
-            <CustomLink to="/About">About Us</CustomLink>
+            <CustomLink  onClick={() => this.closeMenu()} to="/">Home</CustomLink>
+            <CustomLink onClick={() => this.closeMenu()} to="/OnlineClass">Online Class</CustomLink>
+            <CustomLink onClick={() => this.closeMenu()} to="/Contact">Contact</CustomLink>
+            <CustomLink onClick={() => this.closeMenu()} to="/About">About Us</CustomLink>
         </ul>
   </Menu>
   );
