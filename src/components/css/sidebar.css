@@ -5,6 +5,7 @@
     height: 30px;
     left: 36px;
     top: 36px;
+    display: none;
   }
   
   /* Color/shape of burger icon bars */
@@ -29,8 +30,8 @@
   }
   
   /*
-  Sidebar wrapper styles
-  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+    Sidebar wrapper styles
+    Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
   */
   .bm-menu-wrap {
     position: fixed;
@@ -38,21 +39,42 @@
   }
   
   /* General sidebar styles */
+
   .bm-menu {
-    background: #ffffff;
+    background: #4B8673;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
   }
-  
-  /* Morph shape necessary with bubble or elastic */
-  .bm-morph-shape {
-    fill: #373a47;
-  }
-  
   /* Wrapper for item list */
   .bm-item-list {
     color: #b8b7ad;
     padding: 0.8em;
+    list-style-type: none;
+  } .bm-item-list li {
+    list-style-type: none;
+    padding: 20px;
+    list-style-type: none;
+    width: auto;
+    height: inherit;
+    transition: 0.3s linear;
+  
+  }.bm-item-list li a {    
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+  }
+
+  .bm-item-list ul li:hover,
+  .bm-item-list ul li.active{
+    background: white;
+  } 
+
+  .bm-item-list ul li:hover a,
+  .bm-item-list ul li.active a{
+    color:#EBD671;
+    /* background: white; */
   }
   
   /* Individual item */
@@ -63,6 +85,16 @@
     text-align: left;
     text-decoration: none;
     transition: color 0.2s;
+  }@media screen and (min-width: 770px) {
+    .bm-menu{
+      display: none;
+    }
+  }
+
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
   }
   
   .bm-item:hover {

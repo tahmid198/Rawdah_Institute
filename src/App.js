@@ -33,9 +33,10 @@ function App() {
         {/* <h1>Welcome to Rawdah Institute</h1> */}
     return (   
     <>
-      <ParentNavigation />
+      <ParentNavigation  />
       <div className='App' id='outer-container'>
       {/* <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} /> */}
+
         <div id='page-wrap'>
           <Routes>
             <Route path="/" element={<Home />} />

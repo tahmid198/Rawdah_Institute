@@ -1,16 +1,16 @@
 import React, { Children, useState } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import { pushRotate as Menu } from 'react-burger-menu';
+import { slide as Menu } from 'react-burger-menu';
 import './css/sidebar.css';
 
-const Sidebar = ({isOpen})  => {
+const Sidebar = ({isOpen, setIsOpen})  => {
 
 const menuProps = {
-  width: 350,
+  width: "60%"
 };
 
 return (
-  <Menu right {...menuProps} isOpen={isOpen}>
+  <Menu className='sideBarMenu' disableOverlayClick right {...menuProps} isOpen={isOpen}>
         <ul>
             <CustomLink to="/">Home</CustomLink>
             <CustomLink to="/OnlineClass">Online Class</CustomLink>
@@ -38,7 +38,5 @@ function CustomLink({ to, children, ...props }) {
     </li>
   );
 }  
-
-
 
 export  default Sidebar;

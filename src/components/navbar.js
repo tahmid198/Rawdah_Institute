@@ -1,28 +1,26 @@
-import React, { Children, useState } from "react";
+import React, { Children, useEffect,useState } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import "./css/navbar.css";
 import Hamburger from "./hamburger";
 import Sidebar from './sidebar'; 
 
 
-const Navbar = ({toggleMenu}) => {
+const Navbar = ({toggleMenu, toggleHamburger, hamburgerOpen}) => {
   // for react router change  all "href" to "to" and change "a" tag to "Link"
-
-  const [hamburgerOpen, setHamburgerOpen] = useState(false);
- 
-  const toggleHamburger = () => {
-    setHamburgerOpen(!hamburgerOpen)
-  }
 
   const handleOpenMenu = () => {
     toggleMenu();
   }
 
-  const handleClick = () => {
+  const handleOpenHamburger = () => {
     toggleHamburger();
+  }
+
+  const handleClick = () => {
+    handleOpenHamburger();
     handleOpenMenu();
     console.log('toggleMenu called'); // Add a console.log statement
-  };
+  }
 
   return (
     <nav className="navbar">
@@ -49,12 +47,12 @@ const Navbar = ({toggleMenu}) => {
 
 
         {/* if screen > 770px always show navbar and keep hamburger menu hidden
-        if screen < 770px display navbar when hamburger is open or hide it */}
-        <style jsx>{`
-
+        if screen < 770px display navbar when hamburger is open (display:inline) or hide it (display:none) 
+        with sidebar implentation we will keep navbar hidden if regardless if hamburger menu is open or closed*/}
+        <style jsx> {`
             @media screen and (max-width: 770px) {
                 .navbar ul{
-                    display: ${hamburgerOpen ? 'inline' : 'none'}
+                  display: ${hamburgerOpen ? 'none' : 'none'}
                 } 
             }
             @media screen and (min-width: 770px) {
@@ -64,7 +62,7 @@ const Navbar = ({toggleMenu}) => {
                     display: none;
                 } 
             }  
-        `}</style>
+        `} </style>
     </nav>
   );
 };
