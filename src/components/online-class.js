@@ -29,7 +29,6 @@ const arabic102Info = "Details \nCourse Code: Arabic 102 \nInstructor: Ust. Sher
 export default function OnlineClass(){
 
     return (
-        // <HelmetProvider>
         <section className="sec-container">
             <div className="title">
                 <div className="title-info">
@@ -97,6 +96,5 @@ export default function OnlineClass(){
                 </div>
             </div>
         </section>
-        // </HelmetProvider>   
     )
 }
