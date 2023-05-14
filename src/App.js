@@ -7,6 +7,8 @@ import OnlineClass from './components/online-class';
 import Contact from './components/contact';
 import { Route,  Routes } from 'react-router-dom';
 import Footer from './components/footer';
+import Sidebar from './components/sidebar';
+import ParentNavigation from './components/parentNavigation';
 
 function App() {
 
@@ -31,18 +33,20 @@ function App() {
         {/* <h1>Welcome to Rawdah Institute</h1> */}
     return (   
     <>
-      <Navbar />
-      <div className='container'>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/OnlineClass" element={<OnlineClass />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/About" element={<About />} />
-        </Routes>
-        <Footer />
+      <ParentNavigation  />
+      <div className='App' id='outer-container'>
+      {/* <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} /> */}
 
+        <div id='page-wrap'>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/OnlineClass" element={<OnlineClass />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/About" element={<About />} />
+          </Routes>
+          <Footer />
+        </div>
         {/* {component} */}
-
       </div> 
     </>
   );
