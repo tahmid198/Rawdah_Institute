@@ -1,4 +1,4 @@
-import React, { Children, useState } from "react";
+import React, {} from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { slide as Menu } from 'react-burger-menu';
 import './css/sidebar.css';
