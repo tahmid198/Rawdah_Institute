@@ -32,7 +32,7 @@ export default function OnlineClass(){
         <section className="sec-container">
             <div className="title">
                 <div className="title-info">
-                    <h1>Online Classes</h1>
+                    <h1>Testing</h1>
                         <p>Summer 2023</p>
                 </div>
             </div>
