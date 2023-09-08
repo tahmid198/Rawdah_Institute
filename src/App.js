@@ -39,7 +39,7 @@ function App() {
 
         <div id='page-wrap'>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/Home" element={<Home />} />
             <Route path="/OnlineClass" element={<OnlineClass />} />
             <Route path="/Contact" element={<Contact />} />
             <Route path="/About" element={<About />} />
