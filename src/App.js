@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/navbar';
+// import Navbar from './components/navbar';
 import Home from './components/home';
 import About from './components/about';
 import OnlineClass from './components/online-class';
 import Contact from './components/contact';
 import { Route,  Routes } from 'react-router-dom';
 import Footer from './components/footer';
-import Sidebar from './components/sidebar';
+// import Sidebar from './components/sidebar';
 import ParentNavigation from './components/parentNavigation';
 
 function App() {
