@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/rawdah_institute/static/css/main.c3a79077.css",
-    "main.js": "/rawdah_institute/static/js/main.5fbe137a.js",
-    "static/media/home4K.png": "/rawdah_institute/static/media/home4K.64efc2258ec74d22eab1.png",
-    "static/media/about.jpg": "/rawdah_institute/static/media/about.97c03aa450b0db99f510.jpg",
-    "static/media/pexels-steven-jiashu-online-class-medium.jpg": "/rawdah_institute/static/media/pexels-steven-jiashu-online-class-medium.1807ee31acd67af19576.jpg",
-    "static/media/96th_street_event.jpg": "/rawdah_institute/static/media/96th_street_event.241c9bfcfc46826a18f4.jpg",
-    "index.html": "/rawdah_institute/index.html",
-    "main.c3a79077.css.map": "/rawdah_institute/static/css/main.c3a79077.css.map",
-    "main.5fbe137a.js.map": "/rawdah_institute/static/js/main.5fbe137a.js.map"
+    "main.css": "/Rawdah_Institute/static/css/main.5e222ff9.css",
+    "main.js": "/Rawdah_Institute/static/js/main.0cab1f4a.js",
+    "static/media/home4K.png": "/Rawdah_Institute/static/media/home4K.64efc2258ec74d22eab1.png",
+    "static/media/about.jpg": "/Rawdah_Institute/static/media/about.97c03aa450b0db99f510.jpg",
+    "static/media/pexels-steven-jiashu-online-class-medium.jpg": "/Rawdah_Institute/static/media/pexels-steven-jiashu-online-class-medium.1807ee31acd67af19576.jpg",
+    "static/media/96th_street_event.jpg": "/Rawdah_Institute/static/media/96th_street_event.241c9bfcfc46826a18f4.jpg",
+    "index.html": "/Rawdah_Institute/index.html",
+    "main.5e222ff9.css.map": "/Rawdah_Institute/static/css/main.5e222ff9.css.map",
+    "main.0cab1f4a.js.map": "/Rawdah_Institute/static/js/main.0cab1f4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3a79077.css",
-    "static/js/main.5fbe137a.js"
+    "static/css/main.5e222ff9.css",
+    "static/js/main.0cab1f4a.js"
   ]
 }
