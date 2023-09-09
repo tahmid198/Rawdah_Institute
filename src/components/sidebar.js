@@ -10,9 +10,9 @@ const menuProps = {
 };
 
  // This can be used to close the menu, e.g. when a user clicks a menu item
- const closeMenu =  () => {
-  this.setState({menuOpen: false})
-};
+//  const closeMenu =  () => {
+//   this.setState({menuOpen: false})
+// };
 
 return (
   <Menu className='sideBarMenu' disableOverlayClick right {...menuProps} isOpen={isOpen}>

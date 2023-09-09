@@ -30,7 +30,6 @@ function App() {
     //       break
     //   }
 
-        {/* <h1>Welcome to Rawdah Institute</h1> */}
     return (   
     <>
       <ParentNavigation  />
@@ -39,7 +38,7 @@ function App() {
 
         <div id='page-wrap'>
           <Routes>
-            <Route path="/Home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/OnlineClass" element={<OnlineClass />} />
             <Route path="/Contact" element={<Contact />} />
             <Route path="/About" element={<About />} />
