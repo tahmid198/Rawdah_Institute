@@ -1,7 +1,4 @@
-/* * {
-    box-sizing: border-box;
-} */
-/* --------------------------------------------------------------------------------------- */
+
 .title {
     position: relative;
     height: 60vh;
@@ -102,21 +99,6 @@
 }
 
 
-/* -------------------------------------------------------------------------------------- */
-
-/* main.js script */
-/* .more-text{
-    display: none;
-}
-.read-more-btn {
-    padding: 15px 60px;
-    cursor: pointer;
-}
-.text.show-more .more-text {
-    display: inline;
-} */
-
-
 /*CLAMP-LINE STYLES*/
 .clamp-lines__button {
     background: none;
@@ -151,4 +133,3 @@
 } .overview::first-line{
     font-weight: 550;
 }
-/* -------------------------------------------------------------------------------------- */
