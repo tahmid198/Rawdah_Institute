@@ -5,7 +5,7 @@ import Home from './components/home';
 import About from './components/about';
 import OnlineClass from './components/online-class';
 import Contact from './components/contact';
-import { Route,  Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import Footer from './components/footer';
 // import Sidebar from './components/sidebar';
 import ParentNavigation from './components/parentNavigation';
@@ -30,18 +30,19 @@ function App() {
     //       break
     //   }
 
-    return (   
+     return (   
     <>
       <ParentNavigation  />
       <div className='App' id='outer-container'>
       {/* <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} /> */}
 
         <div id='page-wrap'>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/OnlineClass" element={<OnlineClass />} />
-            <Route path="/Contact" element={<Contact />} />
-            <Route path="/About" element={<About />} />
+          <Routes> 
+            <Route path="/" element={<Navigate replace to="/Rawdah_Institute" />} />
+            <Route path="/Rawdah_Institute" element={<Home />} />
+            <Route path="/Rawdah_Institute/OnlineClass" element={<OnlineClass />} />
+            <Route path="/Rawdah_Institute/Contact" element={<Contact />} />
+            <Route path="/Rawdah_Institute/About" element={<About />} />
           </Routes>
           <Footer />
         </div>
