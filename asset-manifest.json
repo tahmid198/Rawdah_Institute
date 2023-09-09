@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/Rawdah_Institute/static/css/main.067d6015.css",
+    "main.css": "/Rawdah_Institute/static/css/main.79df1ffc.css",
     "main.js": "/Rawdah_Institute/static/js/main.79f4a995.js",
-    "static/media/about.jpg": "/Rawdah_Institute/static/media/about.97c03aa450b0db99f510.jpg",
     "static/media/pexels-steven-jiashu-online-class-medium.jpg": "/Rawdah_Institute/static/media/pexels-steven-jiashu-online-class-medium.1807ee31acd67af19576.jpg",
     "static/media/96th_street_event.jpg": "/Rawdah_Institute/static/media/96th_street_event.241c9bfcfc46826a18f4.jpg",
     "index.html": "/Rawdah_Institute/index.html",
-    "main.067d6015.css.map": "/Rawdah_Institute/static/css/main.067d6015.css.map",
+    "main.79df1ffc.css.map": "/Rawdah_Institute/static/css/main.79df1ffc.css.map",
     "main.79f4a995.js.map": "/Rawdah_Institute/static/js/main.79f4a995.js.map"
   },
   "entrypoints": [
-    "static/css/main.067d6015.css",
+    "static/css/main.79df1ffc.css",
     "static/js/main.79f4a995.js"
   ]
 }
