@@ -30,10 +30,10 @@ const Navbar = ({toggleMenu, toggleHamburger, hamburgerOpen}) => {
         </Link>
 
         <ul>
-            <CustomLink to="/Rawdah_Institute/">Home</CustomLink>
-            <CustomLink to="/Rawdah_Institute/online-class">Online Class</CustomLink>
-            <CustomLink to="/Rawdah_Institute/contact">Contact</CustomLink>
-            {/* <CustomLink to="/Rawdah_Institute/about">About Us</CustomLink> */}
+            <CustomLink to="/home">Home</CustomLink>
+            <CustomLink to="/online-class">Online Class</CustomLink>
+            <CustomLink to="/contact">Contact</CustomLink>
+            {/* <CustomLink to="/about">About Us</CustomLink> */}
             {/* <li><a href="/">Home</a></li>
                 <li><a href="/OnlineClass">Online Class</a></li>
                 <li><a href="/About">About Us</a></li>

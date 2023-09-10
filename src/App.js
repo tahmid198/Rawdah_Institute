@@ -38,11 +38,11 @@ function App() {
 
         <div id='page-wrap'>
           <Routes> 
-            <Route path="/" element={<Navigate replace to="/Rawdah_Institute" />} />
-            <Route path="/Rawdah_Institute" element={<Home />} />
-            <Route path="/Rawdah_Institute/online-class" element={<OnlineClass />} />
-            <Route path="/Rawdah_Institute/contact" element={<Contact />} />
-            <Route path="/Rawdah_Institute/about" element={<About />} />
+            <Route path="/" element={<Navigate replace to="/home" />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/online-class" element={<OnlineClass />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
           </Routes>
           <Footer />
         </div>
