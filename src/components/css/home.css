@@ -1,7 +1,3 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
 .home h1{
 position: relative;
 
@@ -9,11 +5,6 @@ font-size: 3.5rem;
     color: #fff;
     font-weight: 300;
  
-/*  
-width: 100%;
-font-size: 3rem; 
-color: white; */
-
 height: 60vh;
 }
 
@@ -30,7 +21,7 @@ height: 60vh;
 
 .home h3{
  position: 100;
-  font-size:larger; /* add this line to change the font size */
+  font-size:larger; 
 
   color: white;
 }
@@ -68,15 +59,3 @@ height: 60vh;
   
   
 }
-
-/* .section-container{
-height: auto;
-text-align: center;
-padding-top: 100px;
-}
-.section-container h1{
-  text-align: center;
- padding-top: 100px;
-
-
-} */
