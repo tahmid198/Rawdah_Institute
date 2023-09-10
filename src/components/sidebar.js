@@ -18,9 +18,9 @@ return (
   <Menu className='sideBarMenu' disableOverlayClick right {...menuProps} isOpen={isOpen}>
         <ul id="links">
             <CustomLink  onClick={() => this.closeMenu()} to="/Rawdah_Institute">Home</CustomLink>
-            <CustomLink onClick={() => this.closeMenu()} to="/Rawdah_Institute/OnlineClass">Online Class</CustomLink>
-            <CustomLink onClick={() => this.closeMenu()} to="/Rawdah_Institute/Contact">Contact</CustomLink>
-            <CustomLink onClick={() => this.closeMenu()} to="/Rawdah_Institute/About">About Us</CustomLink>
+            <CustomLink onClick={() => this.closeMenu()} to="/Rawdah_Institute/online-class">Online Class</CustomLink>
+            <CustomLink onClick={() => this.closeMenu()} to="/Rawdah_Institute/contact">Contact</CustomLink>
+            <CustomLink onClick={() => this.closeMenu()} to="/Rawdah_Institute/about">About Us</CustomLink>
         </ul>
   </Menu>
   );

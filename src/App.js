@@ -40,9 +40,9 @@ function App() {
           <Routes> 
             <Route path="/" element={<Navigate replace to="/Rawdah_Institute" />} />
             <Route path="/Rawdah_Institute" element={<Home />} />
-            <Route path="/Rawdah_Institute/OnlineClass" element={<OnlineClass />} />
-            <Route path="/Rawdah_Institute/Contact" element={<Contact />} />
-            <Route path="/Rawdah_Institute/About" element={<About />} />
+            <Route path="/Rawdah_Institute/online-class" element={<OnlineClass />} />
+            <Route path="/Rawdah_Institute/contact" element={<Contact />} />
+            <Route path="/Rawdah_Institute/about" element={<About />} />
           </Routes>
           <Footer />
         </div>
