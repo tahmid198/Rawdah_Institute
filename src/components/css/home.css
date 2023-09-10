@@ -1,61 +1,40 @@
-.home h1{
-position: relative;
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
 
-font-size: 3.5rem;
-    color: #fff;
-    font-weight: 300;
- 
-height: 60vh;
-}
-
-.home h2{
- 
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 30vh;
-  width: 100%;
-  color: white;
-
-}
-
-.home h3{
- position: 100;
-  font-size:larger; 
-
-  color: white;
-}
-
-.home .home-info {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  height: auto;
-  color: white;
-
-}
-
-.home .home-info h5 {
-
-  position: absolute;
-  top: 65%;
-  transform: translateY(-50%);
-  width: 100%;
-  height: auto;
-  color: white;
-}
 
 .home {
-  position: relative;
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-     url('./rawdah-assets/home4K.png');  
-    
-     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-  
+  position: absolute;
+   height: 100vh;
+  width: 100%;
+  background-color: #111111;
 }
+
+#home-heading {
+  position: absolute;
+  color: #fff;
+  transform: translateY(-50%);
+  top: 50%;
+  width: 100%;
+  height: auto;
+  font-size: xx-large;
+} #home-heading1 {
+  padding:20px;
+  position: relative;
+  color: #fff;
+  top: 50%;
+  width: 100%;
+  height: auto;
+  font-size: xx-large;
+} #home-heading2{
+  position: relative;
+  color: #fff;
+  transform: translateY(-50%); 
+  top: 50%;
+  width: 100%;
+  height: auto;
+  font-family:"Lucida Handwriting";
+  font-style:italic;
+  font-size: xxx-large;
+}
+

@@ -1,4 +1,4 @@
-import React, { Children, useState } from "react";
+import React, {} from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { slide as Menu } from 'react-burger-menu';
 import './css/sidebar.css';
@@ -10,17 +10,17 @@ const menuProps = {
 };
 
  // This can be used to close the menu, e.g. when a user clicks a menu item
- const closeMenu =  () => {
-  this.setState({menuOpen: false})
-};
+//  const closeMenu =  () => {
+//   this.setState({menuOpen: false})
+// };
 
 return (
   <Menu className='sideBarMenu' disableOverlayClick right {...menuProps} isOpen={isOpen}>
         <ul id="links">
-            <CustomLink  onClick={() => this.closeMenu()} to="/">Home</CustomLink>
-            <CustomLink onClick={() => this.closeMenu()} to="/OnlineClass">Online Class</CustomLink>
-            <CustomLink onClick={() => this.closeMenu()} to="/Contact">Contact</CustomLink>
-            <CustomLink onClick={() => this.closeMenu()} to="/About">About Us</CustomLink>
+            <CustomLink  onClick={() => this.closeMenu()} to="/Rawdah_Institute">Home</CustomLink>
+            <CustomLink onClick={() => this.closeMenu()} to="/Rawdah_Institute/OnlineClass">Online Class</CustomLink>
+            <CustomLink onClick={() => this.closeMenu()} to="/Rawdah_Institute/Contact">Contact</CustomLink>
+            <CustomLink onClick={() => this.closeMenu()} to="/Rawdah_Institute/About">About Us</CustomLink>
         </ul>
   </Menu>
   );
