@@ -37,7 +37,7 @@ function App() {
       {/* <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} /> */}
 
         <div id='page-wrap'>
-          <Routes> 
+          <Routes basename="/Rawdah_Institute"> 
             <Route path="/" element={<Navigate replace to="/home" />} />
             <Route path="/home" element={<Home />} />
             <Route path="/online-class" element={<OnlineClass />} />
