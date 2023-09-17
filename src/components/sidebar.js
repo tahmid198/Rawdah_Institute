@@ -20,7 +20,7 @@ return (
             <CustomLink  onClick={() => this.closeMenu()} to="/home">Home</CustomLink>
             <CustomLink onClick={() => this.closeMenu()} to="/online-class">Online Class</CustomLink>
             <CustomLink onClick={() => this.closeMenu()} to="/contact">Contact</CustomLink>
-            <CustomLink onClick={() => this.closeMenu()} to="/about">About Us</CustomLink>
+            {/* <CustomLink onClick={() => this.closeMenu()} to="/about">About Us</CustomLink> */}
         </ul>
   </Menu>
   );
