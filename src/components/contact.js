@@ -10,10 +10,10 @@ export default function Contact() {
     e.preventDefault();
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        process.env.secrets.REACT_APP_SERVICE_ID,
+        process.env.secrets.REACT_APP_TEMPLATE_ID,
         form.current,
-        process.env.REACT_APP_PUBLIC_KEY
+        process.env.secrets.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -24,11 +24,11 @@ export default function Contact() {
         (error) => {
           console.log(error.text);
           console.log(
-            process.env.REACT_APP_SERVICE_ID +
+            process.env.secrets.REACT_APP_SERVICE_ID +
               " " +
-              process.env.REACT_APP_TEMPLATE_ID +
+              process.env.secrets.REACT_APP_TEMPLATE_ID +
               " " +
-              process.env.REACT_APP_PUBLIC_KEY
+              process.env.secrets.REACT_APP_PUBLIC_KEY
           );
         }
       );
