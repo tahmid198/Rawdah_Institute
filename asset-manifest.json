@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.dcedf5d6.css",
-    "main.js": "./static/js/main.aa7216fe.js",
+    "main.css": "./static/css/main.1ba9759d.css",
+    "main.js": "./static/js/main.35752d88.js",
     "static/media/pexels-steven-jiashu-online-class-medium.jpg": "./static/media/pexels-steven-jiashu-online-class-medium.1807ee31acd67af19576.jpg",
     "static/media/96th_street_event.jpg": "./static/media/96th_street_event.241c9bfcfc46826a18f4.jpg",
     "index.html": "./index.html",
-    "main.dcedf5d6.css.map": "./static/css/main.dcedf5d6.css.map",
-    "main.aa7216fe.js.map": "./static/js/main.aa7216fe.js.map"
+    "main.1ba9759d.css.map": "./static/css/main.1ba9759d.css.map",
+    "main.35752d88.js.map": "./static/js/main.35752d88.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcedf5d6.css",
-    "static/js/main.aa7216fe.js"
+    "static/css/main.1ba9759d.css",
+    "static/js/main.35752d88.js"
   ]
 }
