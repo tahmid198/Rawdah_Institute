@@ -14,11 +14,16 @@ html, body
 } #page-title {
   position: relative;  
   margin: 5px;
-  padding: 0px 100px 0px;
+  padding: 20px 100px 0px;
   text-align: center;
   color: #f1f1f1;
   font-size: 30px;
-} #page-subheading {
+} @media screen and (max-width: 980px) {
+  #page-title {
+    padding: 20px 50px 0px;
+
+  }
+}#page-subheading {
   color:#f1f1f1;
   text-align: center;
   padding: 0px 100px 0px;
@@ -32,12 +37,12 @@ html, body
   display: grid;
   height: 90vh;
   width: 100%; 
-  padding: 0px 100px 150px;
+  padding: 0px 50px 150px;
   background-color: #111111;
 } @media screen and (max-width: 980px) {
   .contact-wrapper {
     grid-template-columns: auto;
-    padding: 0px 50px 100px;
+    padding: 0px 20px 50px;
     height: 100%;
   }
 }

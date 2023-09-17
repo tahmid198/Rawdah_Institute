@@ -39,7 +39,7 @@ export default function OnlineClass(){
             <div className="schedule">
                 <div className="schedule-title">
                     <h1>SUMMER 2023 SCHEDULE</h1>
-            </div>
+                </div>
                 <div class="grid-schedule-container">
                     <div className="grid-item">FRIDAY</div>
                     <div className="grid-item">SATURDAY</div>
@@ -50,7 +50,7 @@ export default function OnlineClass(){
                     <div className="grid-item">QURANIC RECITATION 10:30AM - 11:30AM</div>
                     <div className="grid-item">PROPHETS IN QURAN 12PM - 1PM</div>
                     <div className="grid-item">ARABIC FOR BEGINNERS 2PM - 3PM</div>
-                </div>
+                </div>  
             </div>
 
             <div className='class-container'>
