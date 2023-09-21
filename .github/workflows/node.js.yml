@@ -21,6 +21,16 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Set Environment Variables
+      env:
+        REACT_APP_TEMPLATE_ID: ${{ secrets.EMAILJS_REACT_APP_TEMPLATE_ID }}
+        REACT_APP_SERVICE_ID: ${{ secrets.EMAILJS_REACT_APP_SERVICE_ID }}
+        REACT_APP_PUBLIC_KEY: ${{ secrets.EMAILJS_REACT_APP_PUBLIC_KEY }}
+      run: |
+        echo "REACT_APP_TEMPLATE_ID=${REACT_APP_TEMPLATE_ID}" >> $GITHUB_ENV
+        echo "REACT_APP_SERVICE_ID=${REACT_APP_SERVICE_ID}" >> $GITHUB_ENV
+        echo "REACT_APP_PUBLIC_KEY=${REACT_APP_PUBLIC_KEY}" >> $GITHUB_ENV
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
